@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad - A Mano</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --accent: #eff6ff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+      padding: 3rem 2.5rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem 0.5rem;
+      }
+      .container {
+        padding: 2rem 1.25rem;
+      }
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #0f172a;
+      line-height: 1.25;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      color: #0f172a;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #334155;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+      margin-bottom: 1.25rem;
+      color: #334155;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .highlight-card {
+      background: var(--accent);
+      border-left: 4px solid var(--primary);
+      padding: 1.25rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+    }
+
+    .highlight-card p {
+      margin-bottom: 0;
+      color: #1e3a8a;
+      font-weight: 500;
+    }
+
+    .contact-box {
+      background: #f1f5f9;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      border: 1px solid var(--border);
+    }
+
+    .contact-box h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #0f172a;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <span class="badge">Privacidad y Seguridad</span>
+      <h1>Política de Privacidad</h1>
+      <p class="meta">Aplicación: <strong>A Mano</strong> | Última actualización: Octubre 2026</p>
+    </header>
+
+    <section>
+      <div class="highlight-card">
+        <p>🔒 <strong>Resumen clave:</strong> Tu privacidad es nuestra prioridad. <strong>A Mano</strong> funciona de forma local en tu dispositivo. No vendemos, no transferimos ni almacenamos tus datos financieros o personales en servidores externos.</p>
+      </div>
+
+      <h2>1. Introducción</h2>
+      <p>Esta Política de Privacidad describe cómo <strong>A Mano</strong> ("la Aplicación", "nosotros") gestiona la información recopilada a través del uso de la aplicación móvil.</p>
+      <p>Al utilizar A Mano, aceptas los términos expuestos en este documento.</p>
+
+      <h2>2. Datos que recopilamos y Almacenamiento Local</h2>
+      <p>A Mano está diseñada con un enfoque de privacidad desde el diseño:</p>
+      <ul>
+        <li><strong>Almacenamiento Local:</strong> Toda la información financiera registrada (gastos, presupuestos, categorías, importes y fechas) se almacena únicamente en la base de datos local (SQLite) ubicada en el almacenamiento interno de tu propio dispositivo.</li>
+        <li><strong>Sin servidores externos de seguimiento:</strong> La aplicación no recopila tu información en la nube ni en servidores centrales propios. No creamos perfiles comerciales ni recopilamos números de tarjetas bancarias o claves financieras.</li>
+      </ul>
+
+      <h2>3. Permisos del Dispositivo</h2>
+      <p>Para brindar determinadas funcionalidades opcionales, la Aplicación puede solicitar los siguientes permisos:</p>
+      <ul>
+        <li><strong>Cámara:</strong> Utilizada únicamente cuando decides tomar una fotografía de un recibo, factura o comprobante físico de gasto para adjuntarlo a un registro. La foto queda almacenada exclusivamente en tu dispositivo.</li>
+        <li><strong>Galería y Archivos Multimedia:</strong> Utilizada únicamente cuando seleccionas una imagen existente desde tu carrete para adjuntarla como comprobante.</li>
+        <li><strong>Función Compartir / Exportar:</strong> Si utilizas la opción de exportar o compartir tus datos o reportes de gastos, la aplicación invoca los mecanismos nativos del sistema operativo de tu dispositivo para enviarlos solo al destino que tú elijas.</li>
+      </ul>
+
+      <h2>4. Compartición de Datos con Terceros</h2>
+      <p>Nosotros <strong>no vendemos, no alquilamos ni divulgamos</strong> ninguna información de los usuarios a anunciantes ni a terceras empresas. La aplicación no contiene redes de publicidad invasivas ni rastreadores de analítica de terceros.</p>
+
+      <h2>5. Seguridad de la Información</h2>
+      <p>Dado que los datos se almacenan exclusivamente de forma local en tu dispositivo móvil, la seguridad de tu información depende de los mecanismos de protección de tu propio teléfono (contraseñas, patrón de desbloqueo, biometría y copias de seguridad del sistema operativo).</p>
+
+      <h2>6. Control y Eliminación de Datos</h2>
+      <p>Tú tienes control total sobre tus datos en todo momento:</p>
+      <ul>
+        <li>Puedes editar o eliminar cualquier gasto, presupuesto o comprobante directamente desde la interfaz de la Aplicación.</li>
+        <li>Si decides desinstalar la Aplicación o borrar sus datos desde los Ajustes de Android, toda la información almacenada en el dispositivo se eliminará de forma permanente e irrecuperable.</li>
+      </ul>
+
+      <h2>7. Privacidad de Menores</h2>
+      <p>A Mano no está dirigida a menores de 13 años y no recopila a sabiendas información de identificación personal de niños.</p>
+
+      <h2>8. Cambios en esta Política</h2>
+      <p>Podemos actualizar esta Política de Privacidad periódicamente para reflejar mejoras en la aplicación o cambios legales. Las modificaciones se publicarán en esta misma página con la fecha de actualización correspondiente.</p>
+
+      <div class="contact-box">
+        <h3>¿Tienes preguntas o sugerencias?</h3>
+        <p>Si tienes alguna consulta sobre esta Política de Privacidad o sobre el funcionamiento de la aplicación, puedes ponerte en contacto con nosotros en:</p>
+        <p>📧 Correo electrónico: <a href="mailto:dabraloma@outlook.com">dabraloma@outlook.com</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 A Mano. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
